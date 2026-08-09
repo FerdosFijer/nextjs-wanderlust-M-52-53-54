@@ -16,7 +16,7 @@ const DestinationDetailsPage = async ({ params }) => {
   
   const res = await fetch(`http://localhost:5000/destination/${id}`, {
     headers:{
-      authorization: `Bearer ${token}`
+      authorization:`Bearer ${token}`
     }
   });
   const destination = await res.json();
