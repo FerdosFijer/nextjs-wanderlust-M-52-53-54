@@ -13,7 +13,7 @@ const AddDestinationPage = () => {
             body: JSON.stringify(destination)
         })
         const data = await res.json();
-        console.log(data);
+        // console.log(data);
         
     }
     return (
