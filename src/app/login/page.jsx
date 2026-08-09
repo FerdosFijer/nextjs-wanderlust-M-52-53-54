@@ -23,10 +23,8 @@ const LoginPage = () => {
         }
         if (error){
             alert("Error Information ")
-        }
-        
+        }      
 }
-
         const handleGoogleSignin = async ()=>{
                 await authClient.signIn.social({
                 provider: "google",
