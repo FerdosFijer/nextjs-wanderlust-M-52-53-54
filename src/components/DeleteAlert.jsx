@@ -28,7 +28,7 @@ export function DeleteAlert({destination}) {
             </AlertDialog.Header>
             <AlertDialog.Body>
               <p>
-                This will permanently delete <strong>{destinationName}</strong> and all of its
+                This will permanently delete <strong>{destinationName}</strong> and all its
                 data. This action cannot be undone.
               </p>
             </AlertDialog.Body>
